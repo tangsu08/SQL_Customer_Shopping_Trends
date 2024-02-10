@@ -32,4 +32,4 @@ Consists of one master dataset from Kaggle where each row was a unique value. Ha
   * subscription.csv: customer subscribed to online shopping site (y/n)
 
 # Entity Relationship Diagram
-![altext](SQL_Customer_Shopping_Trends/images/shoppingtrendsdatabasediagram.png)
+<img src="images/diagram.png" width="700" height="600">
