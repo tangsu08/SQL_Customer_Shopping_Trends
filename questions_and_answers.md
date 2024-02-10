@@ -61,7 +61,7 @@ No, the average age does not change when looking at gender - the average age is 
 | 92 | Illinois |
 | 89 | Alabama |  
 
-6. What are the most and least popular items purchased?
+6. List the total number of purhcases made for each type of item. What are the most and least popular items purchased?
 <img src=images/sql_script/8_itempopularity.png>
 
 **Results:**  
@@ -93,7 +93,7 @@ Blouse, jewelry, and pants are the top three most popular items purchases while 
 | 140 | Gloves | 
 | 124 | Jeans|
 
-7. What items are customers spending the most on, on average? 
+7. List the average amount spent for each type of item. What items are customers spending the most on, on average? 
 <img src=images/sql_script/9_purchaseamount.png>
 
 **Results:**  
@@ -121,3 +121,56 @@ T-shirts, boots, and dresses are the top three items customers are spending the 
 | 59.0 | Pants |
 | 58.5 | Jewelry |
 | 58.2 | Socks |
+
+8. List the total number of purchases made for each item size.
+<img src=images/sql_script/10_popularsize.png>
+
+**Results:**
+| Total_Purchases | size_of_item |
+| --- | --- |
+| 1755 | M |
+| 1053 | L |
+| 663 | S |
+| 429 | XL |
+
+9. List the average rating customers give to each category of items. 
+<img src=images/sql_script/16_avgrating_by_category.png>
+
+**Results:**
+| avg_rating | category |
+| --- | --- |
+| 3.79 | Footwear |
+| 3.77 | Accessories |
+| 3.75 | Outerwear |
+| 3.72 | Clothing |
+
+10. Do customers who are subscribed to the site make more frequent purchases than those who are non-subscribers?
+<img src=images/sql_script/12_purchase_frequency.png>
+
+<img src=images/sql_script/13_purchase_frequency_nonsubscribers.png>
+
+**Results:**  
+
+Comparing the two, subscribers tend to make more frequent purchases than nonsubscribers - with weekly purchases as their second top frequency of when they make purchases. Nonsubscribers make most of their purchases every 3 months, followed by quarterly. 
+
+**Subscribers:**
+| count_of_purchases_made_by_subscribers | frequency |
+| --- | --- |
+| 160 | Annually |
+| 157 | Weekly |
+| 154 | Every 3 Months |
+| 153| Fortnightly |
+| 149 | Monthly |
+| 140 | Quarterly |
+| 140| Bi-Weekly |
+
+**Nonsubscribers:**
+| count_of_purchases_made_by_nonsubscribers | frequency |
+| --- | --- |
+| 430 | Every 3 Months |
+| 423 | Quarterly |
+| 412 | Annually |
+| 407 | Bi-Weekly |
+| 404 | Monthly |
+| 389 | Fortnightly |
+| 382 | Weekly |
