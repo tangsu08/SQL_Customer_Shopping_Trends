@@ -6,8 +6,10 @@
 # Introduction
 A SQL analysis exploring online customer shopping preferences and purchasing behavior.
 
+ * [Data Analysis Questions & Answers](/questions_and_answers.md/)
+
 # Datasets Used  
-Consists of one master dataset from Kaggle where each row was a unique value. Had to normalize the data to remove redundancy and create relationships between the tables, resulting in [20 datasets](/datasets/)  
+Consists of one master dataset from Kaggle where each row was a unique value. Had to normalize the data to remove redundancy and create relationships between the tables, resulting in [20 tables](/datasets/)  
 
   * shopping_trends_updated.csv: master dataset that captures a wide range of customer attributes related to online customer shopping
   * items.csv: purchased item description  
