@@ -1,2 +1,2 @@
-# sql-projects
-Personal SQL projects to practice writing more complex queries
+# SQL_Customer_Shopping_Trends
+A SQL analysis exploring customer shoppping preferences and purchasing behavior.
